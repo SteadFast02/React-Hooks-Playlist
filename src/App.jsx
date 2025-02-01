@@ -1,4 +1,5 @@
 // import ClearUp from "./components/useeffect/ClearnUp";
+import ClearUp from "./components/useeffect/ClearnUp";
 import UseEffect from "./components/useeffect/UseEffect";
 import ReducerHook from "./components/usereducer/ReducerHook";
 import UseState from "./components/usestate/UseState";
@@ -14,7 +15,8 @@ const App = () => {
   // return <ReducerHook />;
   // return <UseState />;
   // return <UseStateObject />;
-  return <UseEffect />;
+  // return <UseEffect />;
+  return <ClearUp />;
 };
 
 export default App;
