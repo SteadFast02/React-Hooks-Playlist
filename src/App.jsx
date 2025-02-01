@@ -1,6 +1,5 @@
 // import ClearUp from "./components/useeffect/ClearnUp";
-// import UseEffect from "./components/useeffect/UseEffect";
-// import UseState from "./components/usestate/UseState";
+import UseEffect from "./components/useeffect/UseEffect";
 import ReducerHook from "./components/usereducer/ReducerHook";
 import UseState from "./components/usestate/UseState";
 import UseStateObject from "./components/usestate/UseStateObject";
@@ -14,7 +13,8 @@ import UseStateObject from "./components/usestate/UseStateObject";
 const App = () => {
   // return <ReducerHook />;
   // return <UseState />;
-  return <UseStateObject />;
+  // return <UseStateObject />;
+  return <UseEffect />;
 };
 
 export default App;
