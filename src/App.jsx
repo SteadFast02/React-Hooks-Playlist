@@ -3,6 +3,7 @@
 // import UseState from "./components/usestate/UseState";
 import ReducerHook from "./components/usereducer/ReducerHook";
 import UseState from "./components/usestate/UseState";
+import UseStateObject from "./components/usestate/UseStateObject";
 // import Parent from "./Parent";
 // import RefHook from "./components/useref/RefHook";
 // import RefHook1 from "./components/useref/RefHook1";
@@ -12,7 +13,8 @@ import UseState from "./components/usestate/UseState";
 
 const App = () => {
   // return <ReducerHook />;
-  return <UseState />;
+  // return <UseState />;
+  return <UseStateObject />;
 };
 
 export default App;
