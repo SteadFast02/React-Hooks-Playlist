@@ -18,8 +18,8 @@ const App = () => {
   // return <UseEffect />;
   // return <ClearUp />;
   // return <Parent />;
-  // return <RefHook />;
-  return <RefHook1 />;
+  return <RefHook />;
+  // return <RefHook1 />;
 };
 
 export default App;
