@@ -4,7 +4,7 @@ import UseEffect from "./components/useeffect/UseEffect";
 import ReducerHook from "./components/usereducer/ReducerHook";
 import UseState from "./components/usestate/UseState";
 import UseStateObject from "./components/usestate/UseStateObject";
-// import Parent from "./Parent";
+import Parent from "./Parent";
 // import RefHook from "./components/useref/RefHook";
 // import RefHook1 from "./components/useref/RefHook1";
 // import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
@@ -16,7 +16,8 @@ const App = () => {
   // return <UseState />;
   // return <UseStateObject />;
   // return <UseEffect />;
-  return <ClearUp />;
+  // return <ClearUp />;
+  return <Parent />;
 };
 
 export default App;

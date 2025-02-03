@@ -4,7 +4,7 @@ import { useGlobalContext } from "./components/usecontext/userContext";
 const Child = () => {
   // const { name, age } = user;
   const userData = useGlobalContext();
-  // console.log("🚀 ~ file: Child.jsx ~ line 8 ~ Child ~ userData", userData);
+  console.log("🚀 ~ file: Child.jsx ~ line 8 ~ Child ~ userData", userData);
 
   return (
     <div>
