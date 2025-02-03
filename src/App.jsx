@@ -7,7 +7,7 @@ import UseStateObject from "./components/usestate/UseStateObject";
 import Parent from "./Parent";
 import RefHook from "./components/useref/RefHook";
 import RefHook1 from "./components/useref/RefHook1";
-// import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
+import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 // import MemoHook from "./components/usememo/MemoHook";
 // import Callbackhook from "./components/usecallback/CallbackHook";
 
@@ -18,8 +18,9 @@ const App = () => {
   // return <UseEffect />;
   // return <ClearUp />;
   // return <Parent />;
-  return <RefHook />;
+  // return <RefHook />;
   // return <RefHook1 />;
+  return <LayoutEffect />;
 };
 
 export default App;
